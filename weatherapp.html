@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WeatherTracker</title>
+        <meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		
+    </head>
+    <body>
+	
+	      <!--I added a div for centering the text and padding.
+		      A customized h1 and h3 tag were created to use a new font and size-->
+       
+		   <div id="header">
+		   
+		     
+		   
+		     <h1> Weather Tracker </h1>
+			 
+			
+		    
+		     <h3> Please enter a city and select temperature unit type </h3>
+		    
+		   </div>
+		   
+		   
+		    <!--I added divs for centering the text and padding.
+		        Radio buttons were used and specific divs were added for the display of weather info-->
+		   
+           <div id="content">
+		      
+		     <form method="GET">
+	
+			  <p>
+              City: <input id="city" type="text" name="q" value=" ">
+              </p>
+			  
+			  <div id="padding1">
+			  <p>
+		      Unit Type: <input id="unit0" type="radio" name="unit" value="imperial"> Fahrenheit   
+			  </p>
+			  </div>
+			  
+			  <div id="padding2">
+			  <p>
+			  <input id="unit1" type="radio" name= "unit" value="metric"> Celsius
+			  </p>
+			  </div>
+			  
+			  <div id="padding3">
+			  <p>
+			  <input id="unit2" type="radio" name= "unit" value=" "> Kelvin
+			  
+			  </p>		  
+			  </div>
+			  
+			  <button id="submit" type="button"> Submit </button>
+			  
+             </form>
+			 
+			 <br>
+			 
+			 <h3>
+             <div id="descript">
+			 </div>
+			 
+			 <div>
+			 <img id="icon">
+			 </div>
+			 
+			 <div id="name">
+			 </div>
+			 
+			 <div id="temp">
+			 </div>
+			 
+			 <div id="windS">
+			 </div>
+			 
+			 <div id="humid">
+			 </div>
+		   
+	         </h3>
+		   
+		</div>
+		
+		<!-- a footer for extra design appeal-->
+		
+		<div id="footer">
+		
+		   Copyright &copy; 2018 Erick Briones.
+		   
+		
+		</div>
+		
+		<script src="weatherapp.js"> </script>
+    
+    </body>
+</html>

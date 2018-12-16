@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+@font-face
+{
+    src: url("Under the Weather.otf");
+    font-family: weather;
+}
+
+
+body {
+	
+	background-image: url("clouds.gif");
+	
+    background-size: cover;
+	
+	line-height: 1;
+
+	
+	
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+blockquote, q {
+	quotes: none;
+}
+
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+h1 {
+	
+	font-family: weather;
+	font-size: 100px;
+	
+    
+}
+
+h3 {
+	
+	font-family: weather;
+	font-size: 20px;
+	
+	
+	
+}
+
+
+
+
+#header {
+	
+
+	padding-top: 175px;
+	text-align: center;
+	padding-bottom: 25px;
+
+}
+
+#content {
+	
+        
+		text-align: center;
+	
+		padding-bottom: 55px;
+		
+		
+
+		
+}
+
+
+#padding1
+{
+	
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-right: 40px;
+	
+
+
+}
+
+#padding2 {
+	
+
+    padding-bottom: 15px;
+	padding-left: 11px;
+	
+	
+}
+
+#padding3 {
+	
+	padding-bottom: 25px;
+	padding-left: 7px;
+	
+
+}
+
+#footer {
+	
+	position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	
+}
+
+
